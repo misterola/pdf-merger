@@ -44,6 +44,10 @@ merger.write(
     / "Python Book.pdf"
 )
 print(
-    f"Files/objects {list_of_pdf[0]}, {list_of_pdf[1]}, and {list_of_pdf[2]} merged successfully"
+    f'''The following Files/objects merged successfully:
+    -{list_of_pdf[0]}
+    -{list_of_pdf[1]}
+    {list_of_pdf[2]}'''
 )
+
 merger.close()
